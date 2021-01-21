@@ -1,0 +1,17 @@
+  <div class="side2 middle">
+      <div class="box">
+        <h1 class="mainHeading"><%= kindOfDay %></h1>
+        <form action="/delete" method="post">
+        <% newListItems.forEach(function(item){  %>
+        <div class="item">
+          <input type="checkbox" onchange="this.form.submit()" name="checkbox" value="<%= item._id %>">
+          <p class="listP"><%= item.name %></p>
+        </div>
+         <% }); %>
+         </form>
+         <form class="item listForm" action="/home" method="post">
+         <input class="listInput" type="text" name="newItem" placeholder="Enter new item" autocomplete="off">
+         <button class="listButton" type="submit" name="button">+</button>
+         </form>
+      </div>
+  </div>

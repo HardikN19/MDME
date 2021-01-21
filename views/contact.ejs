@@ -1,0 +1,22 @@
+<%- include("partials/header"); -%>
+    <h1>Contact  Us</h1>
+    <!-- <p> <%= contactContent %> </p> -->
+
+    <form class="" action="/home" method="post">
+      <!-- Action : after submit that form action take us to the index page -->
+      <div class="form-group">
+      <label>Your Name</label>
+      <input class="form-control" type="text" name="yname" placeholder="Your name..">
+      <br>
+      <label>Your Email Id</label>
+      <input class="form-control" type="email" name="ymail"  placeholder="Your Email Id..">
+      <br>
+      <label>Your Message</label>
+      <br>
+      <textarea class="form-control" name="yourmessage" rows="10" cols="80" placeholder="Write Message.."></textarea>
+      <input type="submit" class="btn btn-primary">
+    </form>
+    <br><br><br>
+    <center>You can also contact us on Helpline number 7878786622.</center><br>
+    <marquee direction = left >Our services works 24 hours. Feel free to contact us any time. </marquee>
+<%- include("partials/footer"); -%>

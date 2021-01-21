@@ -1,0 +1,24 @@
+
+<%- include("partials/header"); -%>
+    <!-- <img class="bgimg" src="Images/bgimg.webp" alt="background img"> -->
+
+    <%- include("partials/list"); -%>
+    <div class="middle">
+          <div class="side1">
+           <h1 class="mainHeading">Welcome to MDME</h1>
+            <!-- <img src="Images/diary1.png" alt="diary" width="20%" height="20%"> -->
+            <br>
+           <p> <%= startingContent %> </p>
+           <h5>Enjoy Blogging!</h5>
+           <%  posts.forEach(function(post){ %>
+
+            <h1><%=post.title%></h1>
+            <p>
+            <%=post.content.substring(0, 65) + " ..."%>
+            <a href="/posts/<%=post._id%>">Read More</a>
+            </p>
+            <% }) %>
+         </div>
+   </div>
+
+<%- include("partials/footer"); -%>

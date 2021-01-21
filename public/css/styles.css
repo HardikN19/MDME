@@ -1,0 +1,242 @@
+body{
+  margin: 0;
+}
+
+.mainHeading{
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  color: #fff;
+  padding: 5px;
+  background-color: #11CDD4;
+  text-align: center;
+  border-radius: 4%;
+}
+
+.btn {
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  color: #FFFFFF ;
+  font-size: 20px;
+  text-shadow: 1px 1px 0 #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #63B8EE;
+  background: linear-gradient(top,  #11CDD4,  #11999E);
+  background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+  background: #468CCF;
+  background: linear-gradient(top,  #30E3CD,  #2BC4AD);
+  background: -ms-linear-gradient(top,  #30E3CD,  #2BC4AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CD), to(#2BC4AD));
+  background: -moz-linear-gradient(top,  #30E3CD,  #2BC4AD);
+}
+
+.mainText{
+  display: inline-block;
+  position: relative;
+  left: 100px;
+  font-size: 40px;
+  margin-top: 30px;
+  color: white;
+}
+
+.middle{
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+  height: 90%;
+}
+
+.side1{
+
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  width: 60%;
+  padding: 0 50px 50px 50px;
+}
+
+.side2{
+  display: inline-block;
+  position: absolute;
+  left: 65%;
+  top: 120px;
+  width: 30%;
+  height: 65%;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+/* .sigin1{
+  display:inline-block;
+  text-align: center;
+  font-size: 30px;
+  margin : 0;
+  border-radius: 10px;
+  height: 100%;
+  background-color: #66BFBF;
+  color: white;
+  padding: auto;
+  width: 100%;
+} */
+
+.top{
+  background-color: #66BFBF;
+  padding-bottom: 20px;
+}
+
+.topButton{
+  display: inline-block;
+  position: relative;
+  left: 13%;
+}
+
+/* .topimg{
+  display: inline-block;
+  position: relative;
+  left: 60px;
+  top: 15px;
+} */
+
+/* this */
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/* .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+} */
+
+.footer-padding {
+	padding-bottom: 60px;
+
+}
+
+.footer {
+	position: fixed;
+  left: 0;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #66BFBF;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+/* List Css */
+
+/* .listH1 {
+  color: #fff;
+  padding: 10px;
+  background-color: #A683E3;
+  text-align: center;
+} */
+
+.box {
+  background: white;
+  padding: 0 0 0 0;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+
+.item {
+
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+.listInput:checked+p.listP {
+  text-decoration: line-through;
+  text-decoration-color: #66BFBF;
+}
+
+.listIinput[type="checkbox"] {
+  margin: 20px;
+}
+
+.listP {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+.listForm {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.listButton {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #66BFBF;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+.listInput[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+.listInput[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #66BFBF;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+/* for mobile */
